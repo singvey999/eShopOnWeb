@@ -8,7 +8,7 @@ resource acr 'Microsoft.ContainerRegistry/registries@2021-09-01' = {
   name: 'cr${suffix}'
   location: location
   sku: {
-    name: 'Basic'
+    name: 'Standard'
   }
   properties: {
     adminUserEnabled: false
